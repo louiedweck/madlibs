@@ -1,4 +1,4 @@
-input_types = ['plural animal', 'noun', 'adjective', 'verb', 'name', 'noun', 'verb', 'adverb', 'noun', 'adjective']
+input_types = ['plural animal', 'noun','verb', 'adverb', 'name', 'noun', 'verb', 'adverb', 'noun', 'adjective']
 user_inputs = []
 
 for input_type in input_types:
@@ -8,5 +8,5 @@ for input_type in input_types:
 
 # print(user_inputs)
 
-story = 'One day three ' + user_inputs[0] + ' saw a ' + user_inputs[1] + ''
+story = 'One day three ' + user_inputs[0] + ' saw a ' + user_inputs[1] + user_input[2] + 'frolicking' + user_input[3] 
 print(story)
